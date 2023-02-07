@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.Nav{
+text-decoration: none;
+color: black;
+}
+ul{
+    list-style-type: none;
+}
+/* .container{
+    /* max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+}
+     */

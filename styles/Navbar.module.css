@@ -1,0 +1,23 @@
+.nav{
+    padding: 20px 0%;
+    box-shadow:  2px 1px 1px #ccc ;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container ul {
+    display: flex;
+   
+}
+.container ul li {
+    margin-left: 80px;
+
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 100;
+    /* margin-left: 20px; */
+    
+}
