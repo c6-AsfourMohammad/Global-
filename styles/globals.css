@@ -13,9 +13,34 @@ color: black;
 ul{
     list-style-type: none;
 }
-/* .container{
-    /* max-width: 1000px;
-    width: 80%;
-    margin: 0 auto;
+
+.App{
+    display: flex;
+    justify-content: space-around;
+
+   
+
 }
-     */
+ .Global{
+    display: grid;
+    border-radius: 20px;
+margin-top: 1%;
+box-shadow: 1px 6px 6px #e6aa3b;
+background-color: aliceblue;
+} 
+.Global:hover{
+box-shadow: 1px 6px 6px #3b91e6;
+transition: 0.5s;
+
+}
+.GlobalImg{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: auto;
+}
+
+.GlobalImg:hover{
+    transition: 0.5s;
+filter: blur(1.5px) ;
+  
+}
