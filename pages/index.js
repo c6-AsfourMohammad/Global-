@@ -1,5 +1,5 @@
 import Navbar from "./../compoents/Navbar";
-import Pagination from "react-js-pagination";
+
 
 const Global=[
   {name:"Vietnam",
@@ -77,11 +77,13 @@ const index=()=>{
    
   </div>
   <div className="shares">
-    <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-  <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-</svg></button>
-    <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+    <button>
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+</svg>
+    </button>
+    <button><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
 </svg></button>
 
   </div>
@@ -89,16 +91,36 @@ const index=()=>{
 
 {/* <h1>Explore The World</h1> */}
 <div className="Square">
-  <img className="img" src="https://ml4fe7mkrawf.i.optimole.com/UyGtUbQ-WeR_xuQs/w:auto/h:auto/q:mauto/https://globaltribes.io/wp-content/uploads/2022/04/al-khaznah-petra.webp" width="800" height="400"/>
-<img className="img"src="https://ml4fe7mkrawf.i.optimole.com/UyGtUbQ-WeR_xuQs/w:auto/h:auto/q:mauto/https://globaltribes.io/wp-content/uploads/2022/04/al-khaznah-petra.webp"  width="800" height="400"/>
-</div>
-
-<img className="img"src="https://ml4fe7mkrawf.i.optimole.com/UyGtUbQ-WeR_xuQs/w:auto/h:auto/q:mauto/https://globaltribes.io/wp-content/uploads/2022/04/al-khaznah-petra.webp" width="500" height="800"/>
-<img className="img"src="https://ml4fe7mkrawf.i.optimole.com/UyGtUbQ-WeR_xuQs/w:auto/h:auto/q:mauto/https://globaltribes.io/wp-content/uploads/2022/04/al-khaznah-petra.webp" width="700" height="800"/>
-
-
-</div >
+<div className="ExploreTanzania">
+<img className="imgTanzania"src="https://ml4fe7mkrawf.i.optimole.com/UyGtUbQ-qmK4xKN7/w:auto/h:auto/q:mauto/https://globaltribes.io/wp-content/uploads/2022/09/Sunset-in-Tanzania.webp" width="500" height="800"/>
+<div class="overlayTanzania">
+    <div class="textTanzania">Tanzania is waiting</div>
   </div>
+</div>
+  {/* <img className="img" src="https://ml4fe7mkrawf.i.optimole.com/UyGtUbQ-WeR_xuQs/w:auto/h:auto/q:mauto/https://globaltribes.io/wp-content/uploads/2022/04/al-khaznah-petra.webp" width="800" height="400"/> */}
+<div className="ExploreUzbekistan">
+<img className="imgUzbekistan"src="https://ml4fe7mkrawf.i.optimole.com/UyGtUbQ-LvYcK5M1/w:auto/h:auto/q:mauto/https://globaltribes.io/wp-content/uploads/2022/09/minaret-in-Uzbekistan.webp" width="500" height="800"/>
+<div class="overlayUzbekistan">
+    <div class="textUzbekistan">The history you know </div>
+  </div>
+</div>
+</div>
+<div className="ExploreKyrgyzstan">
+<img className="imgKyrgyzstan"src="https://ml4fe7mkrawf.i.optimole.com/UyGtUbQ-kBeixCof/w:auto/h:auto/q:mauto/https://globaltribes.io/wp-content/uploads/2022/08/Yurt-Camping.webp" width="500" height="800"/>
+<div class="overlayKyrgyzstan">
+    <div class="textKyrgyzstan">A Hidden Gem </div>
+  </div>
+</div>
+  <div className="ExploreJordan">
+<img className="imgJor"src="https://ml4fe7mkrawf.i.optimole.com/UyGtUbQ-WeR_xuQs/w:auto/h:auto/q:mauto/https://globaltribes.io/wp-content/uploads/2022/04/al-khaznah-petra.webp" width="500" height="800"/>
+<div class="overlayJordan">
+    <div class="textJordan">Welcome to jordan </div>
+  </div>
+</div>
+</div >
+
+  </div>
+  
   );
 }
 export default index;
