@@ -17,5 +17,8 @@
     "react-dom": "18.2.0",
     "react-js-pagination": "^3.0.3",
     "tar": "^6.1.13"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.32.2"
   }
 }
