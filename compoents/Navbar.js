@@ -6,7 +6,7 @@ const Navbar=()=>{
         <div className={Style.container }>
             <div className={Style.logo}>Task</div>
             <ul>
-                <li>
+                <li className="bar">
                     <Link href="/" className="Nav">Home</Link>
                 </li>
                 <li>

@@ -113,7 +113,10 @@ const index=()=>{
   </div>
 </div>
 </div >
-
+<footer>
+  <p>Mohammad Asfour</p>
+  <p><a href="mohammad.asfo@gmail.com">mohammad.asfo@gmail.com</a></p>
+</footer>
   </div>
   
   );
