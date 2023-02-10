@@ -1,6 +1,4 @@
 import Navbar from "./../compoents/Navbar";
-
-
 const Global=[
   {name:"Vietnam",
   Activities:"Heritage",
@@ -92,7 +90,6 @@ const index=()=>{
     <div class="textTanzania">Tanzania is waiting</div>
   </div>
 </div>
-  {/* <img className="img" src="https://ml4fe7mkrawf.i.optimole.com/UyGtUbQ-WeR_xuQs/w:auto/h:auto/q:mauto/https://globaltribes.io/wp-content/uploads/2022/04/al-khaznah-petra.webp" width="800" height="400"/> */}
 <div className="ExploreUzbekistan">
 <img className="imgUzbekistan"src="https://ml4fe7mkrawf.i.optimole.com/UyGtUbQ-LvYcK5M1/w:auto/h:auto/q:mauto/https://globaltribes.io/wp-content/uploads/2022/09/minaret-in-Uzbekistan.webp" width="500" height="800"/>
 <div class="overlayUzbekistan">
